@@ -32,13 +32,16 @@ A **Weighted Sum Method** was used to reduce the multi-objective problem to a si
 
 To run the optimization:
 
-Install Dependencies
+1. Install Dependencies
 pip install -r requirements.txt
-Place Dataset
+
+2. Place Dataset
 Ensure the auto-mpg.csv file is present in the root directory of your project. You can download it from this Kaggle link.
-Run the Python Script
+
+3. Run the Python Script
 python task1.py
-Output
+
+4. Output
 The script will print the optimized normalized values for mpg, horsepower, and weight along with the final objective score.
 
 Results
