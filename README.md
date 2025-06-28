@@ -25,5 +25,5 @@ Find the optimal balance between fuel efficiency, engine power, and vehicle weig
 
 ## Optimization Strategy
 
-A **Weighted Sum Method** was used to reduce the multi-objective problem to a single scalar objective:
+A **Weighted Sum Method** was used to reduce the multi-objective problem to a single scalar objective: Objective = -0.4 * mpg - 0.4 * horsepower + 0.2 * weight
 
