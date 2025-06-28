@@ -43,14 +43,11 @@ The script will print the optimized normalized values for mpg, horsepower, and w
 
 Results
 
-Optimized Result (Normalized):
+Optimized Result (Normalized):  [1.0, 1.0, 0.0]
 
-[1.0, 1.0, 0.0]
-Objective Score:
+Objective Score:  -0.8
 
--0.8
-Interpretation:
-The optimizer chose to maximize both mpg and horsepower to their highest possible values, while minimizing weight. This result aligns with our objective of achieving high fuel efficiency and power while keeping the car lightweight.
+Interpretation:  The optimizer chose to maximize both mpg and horsepower to their highest possible values, while minimizing weight. This result aligns with our objective of achieving high fuel efficiency and power while keeping the car lightweight.
 
 Report
 
