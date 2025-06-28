@@ -27,3 +27,34 @@ Find the optimal balance between fuel efficiency, engine power, and vehicle weig
 
 A **Weighted Sum Method** was used to reduce the multi-objective problem to a single scalar objective: Objective = -0.4 * mpg - 0.4 * horsepower + 0.2 * weight
 
+
+## Execution Steps
+
+To run the optimization:
+
+Install Dependencies
+pip install -r requirements.txt
+Place Dataset
+Ensure the auto-mpg.csv file is present in the root directory of your project. You can download it from this Kaggle link.
+Run the Python Script
+python task1.py
+Output
+The script will print the optimized normalized values for mpg, horsepower, and weight along with the final objective score.
+
+Results
+
+Optimized Result (Normalized):
+
+[1.0, 1.0, 0.0]
+Objective Score:
+
+-0.8
+Interpretation:
+The optimizer chose to maximize both mpg and horsepower to their highest possible values, while minimizing weight. This result aligns with our objective of achieving high fuel efficiency and power while keeping the car lightweight.
+
+Report
+
+A brief summary of the methodology, dataset, objective formulation, and results is included in the PDF report:
+[Task1_report.pdf](https://github.com/user-attachments/files/20961055/Task1_report.pdf)
+
+
